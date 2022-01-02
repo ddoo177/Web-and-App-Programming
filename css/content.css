@@ -1,0 +1,65 @@
+.content__text
+{
+	position: relative;
+	color: #fff;
+	float: left;
+}
+.content__image img
+{
+	width: 55%;
+	position: absolute;
+  	right: 0px;
+  	z-index: -1;	
+  	-webkit-transform: scaleX(-1);
+	margin: 100px 200px;
+}
+.text__big
+{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 70px;
+	font-weight: 900;
+}
+.text__para
+{
+	font-size: 25px;
+}
+.text__btn button
+{
+	margin-top: 20px;
+	border: none;
+	background: #fff;
+	height: 60px;
+	width: 150px;
+	outline: none;
+	border-radius: 5px;
+	color: rgba(0,0,0,0.5);
+	cursor: pointer;
+	font-size: 20px;
+}
+.btn2 button
+{
+	margin: 0;
+	color: #fff;
+	background-color: #44bd32;
+	border: 2px solid #fff;
+}
+.btn2 button:hover
+{
+	background-color: #fff;
+	color: rgba(0,0,0,0.5);
+}
+.content
+{
+	height: 800px;
+	background-image: url('https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/271168715_121359953713439_9083709668777725383_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=f__2NUF2S4QAX8J8yHU&_nc_ht=scontent.fdad3-4.fna&oh=00_AT8ruVHfKt_4BmylqAr5Thkt2Gc8AiHaYTUV0Dhu6R3JPw&oe=61D37B34');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.content__boder
+{
+	background-color: rgba(68, 189, 50,0.5);
+	width: 40%;
+	position: absolute;
+	padding: 50px;
+	margin: 10%;
+}

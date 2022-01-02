@@ -1,0 +1,111 @@
+.container
+{
+	display: flex;
+	margin: 50px;
+	color: #fff;
+}
+.container__para1
+{
+	width: 33%;
+}
+.container__para1 h1
+{
+	font-weight: 900;
+	font-size: 50px;
+}
+.container__para1 .space
+{
+	width: 50%;
+	height: 3px;
+	background-color: #fff;
+	margin: 37px 0;
+}
+.container__para1 p
+{
+	font-style: italic;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.7);
+}
+.container__para2
+{
+	width: 33%;
+	margin-right: 30px;
+}
+.container__para3
+{
+	width: 33%;
+}
+
+#content__card
+{
+	margin: o auto;
+	display: flex;
+	background-color: #fff;
+	height: 600px;
+}
+.card img
+{
+	width: 50%;
+	margin-top: 50px;
+	border-radius: 50%;
+}
+.card img:hover
+{
+    -webkit-transform: scale(1.5); 
+}
+
+.card__img
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.card
+{
+	margin: 50px 0;
+	color: #aca7ae;
+	background: #fff;
+	width: 334px;
+	height: 420px;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.card h2
+{
+	color: rgba(0, 0, 0, 0.6);
+	margin-top: 50px;
+}
+.card button
+{
+	width: 333px;
+	font-size: 20px;
+	border: none;
+	height: 60px;
+	margin-top: 10px;
+	cursor: pointer;
+	color: #fff;
+}
+.card__dog
+{
+	background-color: #60701D;
+}
+.card__cat
+{
+	background-color: #A1BD31;
+}
+.card__food
+{
+	background-color: #687047;
+}
+.card__dog:hover
+{
+	background-color: #687047;
+}
+.card__cat:hover
+{
+	background-color: #819727;
+}
+.card__food:hover
+{
+	background-color: #705D47;
+}

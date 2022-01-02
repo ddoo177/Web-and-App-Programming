@@ -1,0 +1,119 @@
+.detail{
+    margin-top: 120px;
+}
+
+.buy{
+    margin: 50px 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    height: 400px;
+}
+.imgdetail{
+    padding: 20px;
+    float: left;
+    width: 35%;
+    height: 100%;
+}
+.detail a
+{
+    color: red;
+}
+.detail a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+.imgdetail img{
+    
+    display: block;
+    box-shadow: 3px 3px 3px 3px grey;
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+}
+
+.imgdetail img:hover{
+    cursor: pointer; 
+    -webkit-transform: scale(1.4); 
+    box-shadow: 3px 3px 3px 3px grey;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.buyinfo{
+    width: 65%;
+    height: 100%;
+    float: left;
+    padding: 30px;
+}
+
+.buyinfo h3{
+
+}
+
+.buyinfo p{
+    font-size: 25px;
+}
+.buyinfo b{
+    color: red;
+    font-size: 30px;
+}
+
+.buyinfo bdo{
+    border: hidden;
+    border-radius: 10px;
+    background: #6c0;
+    color: #FFF;
+    padding: 5px;
+}
+
+.buyinfo table{
+
+}
+
+.buyinfo tr td{
+    font-size: 25px;
+}
+
+.buyinfo tr td button{
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+    background-color: #e5c7ca;
+    font-weight: 600;
+}
+
+.buyinfo tr td button:hover{
+    border: 1px solid red;
+    color: white;
+    background-color: #f56565;
+}
+
+.product{
+    margin: 50px 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.product h3{
+    background-color: rgba(68, 189, 50,1.0);
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.configuration{
+    padding: 20px;
+}
+
+.configuration table{
+    width: 30%;
+    font-size: 20px;
+}
+
+
+.configuration table tr{
+}
+
+.information{
+    padding: 20px;
+}
+
